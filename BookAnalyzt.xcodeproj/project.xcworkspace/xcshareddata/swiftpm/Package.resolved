@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "BBHelperKit",
+        "repositoryURL": "https://github.com/bibinjacobpulickal/BBHelperKit.git",
+        "state": {
+          "branch": null,
+          "revision": "6012056baaaa3bcb6f3038ca1276f7b0ebcb9576",
+          "version": "1.0.11"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

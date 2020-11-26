@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,7 @@
 		EFE2DAB2256EE204000F7453 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE2DAB1256EE204000F7453 /* ContentView.swift */; };
 		EFE2DAB4256EE206000F7453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE2DAB3256EE206000F7453 /* Assets.xcassets */; };
 		EFE2DAB7256EE206000F7453 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE2DAB6256EE206000F7453 /* Preview Assets.xcassets */; };
+		EFE2DAC1256EE2DE000F7453 /* BBHelperKit in Frameworks */ = {isa = PBXBuildFile; productRef = EFE2DAC0256EE2DE000F7453 /* BBHelperKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,12 +28,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFE2DAC1256EE2DE000F7453 /* BBHelperKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF3AFDD0257028D3006C5F41 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				EFE2DAB3256EE206000F7453 /* Assets.xcassets */,
+				EFE2DAB8256EE206000F7453 /* Info.plist */,
+				EFE2DAB5256EE206000F7453 /* Preview Content */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		EF3AFDD225702901006C5F41 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EFE2DAB1256EE204000F7453 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EF3AFDD32570290C006C5F41 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EFE2DAAF256EE204000F7453 /* BookAnalyztApp.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		EFE2DAA3256EE204000F7453 = {
 			isa = PBXGroup;
 			children = (
@@ -52,11 +80,9 @@
 		EFE2DAAE256EE204000F7453 /* BookAnalyzt */ = {
 			isa = PBXGroup;
 			children = (
-				EFE2DAAF256EE204000F7453 /* BookAnalyztApp.swift */,
-				EFE2DAB1256EE204000F7453 /* ContentView.swift */,
-				EFE2DAB3256EE206000F7453 /* Assets.xcassets */,
-				EFE2DAB8256EE206000F7453 /* Info.plist */,
-				EFE2DAB5256EE206000F7453 /* Preview Content */,
+				EF3AFDD32570290C006C5F41 /* Main */,
+				EF3AFDD225702901006C5F41 /* Views */,
+				EF3AFDD0257028D3006C5F41 /* SupportingFiles */,
 			);
 			path = BookAnalyzt;
 			sourceTree = "<group>";
@@ -85,6 +111,9 @@
 			dependencies = (
 			);
 			name = BookAnalyzt;
+			packageProductDependencies = (
+				EFE2DAC0256EE2DE000F7453 /* BBHelperKit */,
+			);
 			productName = BookAnalyzt;
 			productReference = EFE2DAAC256EE204000F7453 /* BookAnalyzt.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +141,9 @@
 				Base,
 			);
 			mainGroup = EFE2DAA3256EE204000F7453;
+			packageReferences = (
+				EFE2DABF256EE2DE000F7453 /* XCRemoteSwiftPackageReference "BBHelperKit" */,
+			);
 			productRefGroup = EFE2DAAD256EE204000F7453 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -271,7 +303,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BookAnalyzt/Preview Content\"";
 				DEVELOPMENT_TEAM = 32BS4266DT;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = BookAnalyzt/Info.plist;
+				INFOPLIST_FILE = BookAnalyzt/SupportingFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,7 +325,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BookAnalyzt/Preview Content\"";
 				DEVELOPMENT_TEAM = 32BS4266DT;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = BookAnalyzt/Info.plist;
+				INFOPLIST_FILE = BookAnalyzt/SupportingFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -328,6 +360,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EFE2DABF256EE2DE000F7453 /* XCRemoteSwiftPackageReference "BBHelperKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bibinjacobpulickal/BBHelperKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.11;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EFE2DAC0256EE2DE000F7453 /* BBHelperKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFE2DABF256EE2DE000F7453 /* XCRemoteSwiftPackageReference "BBHelperKit" */;
+			productName = BBHelperKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EFE2DAA4256EE204000F7453 /* Project object */;
 }
