@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF3AFDD525702A2F006C5F41 /* MainTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3AFDD425702A2F006C5F41 /* MainTabBarView.swift */; };
+		EF3AFDD925702A5A006C5F41 /* MainTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3AFDD825702A5A006C5F41 /* MainTabBarItem.swift */; };
+		EF3AFDDE25702ABC006C5F41 /* MainTabBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3AFDDD25702ABC006C5F41 /* MainTabBarItemView.swift */; };
+		EF3AFDE225702AF5006C5F41 /* ColorHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3AFDE125702AF5006C5F41 /* ColorHelpers.swift */; };
+		EF3AFDE525702B2B006C5F41 /* StringHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3AFDE425702B2B006C5F41 /* StringHelpers.swift */; };
 		EFE2DAB0256EE204000F7453 /* BookAnalyztApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE2DAAF256EE204000F7453 /* BookAnalyztApp.swift */; };
 		EFE2DAB2256EE204000F7453 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE2DAB1256EE204000F7453 /* ContentView.swift */; };
 		EFE2DAB4256EE206000F7453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE2DAB3256EE206000F7453 /* Assets.xcassets */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF3AFDD425702A2F006C5F41 /* MainTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarView.swift; sourceTree = "<group>"; };
+		EF3AFDD825702A5A006C5F41 /* MainTabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarItem.swift; sourceTree = "<group>"; };
+		EF3AFDDD25702ABC006C5F41 /* MainTabBarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarItemView.swift; sourceTree = "<group>"; };
+		EF3AFDE125702AF5006C5F41 /* ColorHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHelpers.swift; sourceTree = "<group>"; };
+		EF3AFDE425702B2B006C5F41 /* StringHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringHelpers.swift; sourceTree = "<group>"; };
 		EFE2DAAC256EE204000F7453 /* BookAnalyzt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookAnalyzt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE2DAAF256EE204000F7453 /* BookAnalyztApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookAnalyztApp.swift; sourceTree = "<group>"; };
 		EFE2DAB1256EE204000F7453 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				EFE2DAB1256EE204000F7453 /* ContentView.swift */,
+				EF3AFDD425702A2F006C5F41 /* MainTabBarView.swift */,
+				EF3AFDDD25702ABC006C5F41 /* MainTabBarItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -59,6 +71,23 @@
 				EFE2DAAF256EE204000F7453 /* BookAnalyztApp.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		EF3AFDD725702A4D006C5F41 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF3AFDD825702A5A006C5F41 /* MainTabBarItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EF3AFDE025702AEE006C5F41 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EF3AFDE125702AF5006C5F41 /* ColorHelpers.swift */,
+				EF3AFDE425702B2B006C5F41 /* StringHelpers.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		EFE2DAA3256EE204000F7453 = {
@@ -82,6 +111,8 @@
 			children = (
 				EF3AFDD32570290C006C5F41 /* Main */,
 				EF3AFDD225702901006C5F41 /* Views */,
+				EF3AFDD725702A4D006C5F41 /* Models */,
+				EF3AFDE025702AEE006C5F41 /* Helpers */,
 				EF3AFDD0257028D3006C5F41 /* SupportingFiles */,
 			);
 			path = BookAnalyzt;
@@ -171,7 +202,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFE2DAB2256EE204000F7453 /* ContentView.swift in Sources */,
+				EF3AFDE225702AF5006C5F41 /* ColorHelpers.swift in Sources */,
+				EF3AFDE525702B2B006C5F41 /* StringHelpers.swift in Sources */,
+				EF3AFDDE25702ABC006C5F41 /* MainTabBarItemView.swift in Sources */,
+				EF3AFDD525702A2F006C5F41 /* MainTabBarView.swift in Sources */,
 				EFE2DAB0256EE204000F7453 /* BookAnalyztApp.swift in Sources */,
+				EF3AFDD925702A5A006C5F41 /* MainTabBarItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +336,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"BookAnalyzt/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BookAnalyzt/SupportingFiles/Preview Content\"";
 				DEVELOPMENT_TEAM = 32BS4266DT;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = BookAnalyzt/SupportingFiles/Info.plist;
@@ -322,7 +358,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"BookAnalyzt/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BookAnalyzt/SupportingFiles/Preview Content\"";
 				DEVELOPMENT_TEAM = 32BS4266DT;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = BookAnalyzt/SupportingFiles/Info.plist;
