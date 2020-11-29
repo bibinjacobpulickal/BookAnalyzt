@@ -12,6 +12,9 @@
 		EF3AFDDE25702ABC006C5F41 /* MainTabBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3AFDDD25702ABC006C5F41 /* MainTabBarItemView.swift */; };
 		EF3AFDE225702AF5006C5F41 /* ColorHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3AFDE125702AF5006C5F41 /* ColorHelpers.swift */; };
 		EF3AFDE525702B2B006C5F41 /* StringHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3AFDE425702B2B006C5F41 /* StringHelpers.swift */; };
+		EF3AFE182572ADE6006C5F41 /* MyBooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3AFE172572ADE6006C5F41 /* MyBooksView.swift */; };
+		EF3AFE1B2572E2ED006C5F41 /* SubHeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3AFE1A2572E2ED006C5F41 /* SubHeadingView.swift */; };
+		EF3AFE1E2573F4FC006C5F41 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3AFE1D2573F4FC006C5F41 /* Helpers.swift */; };
 		EFE2DAB0256EE204000F7453 /* BookAnalyztApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE2DAAF256EE204000F7453 /* BookAnalyztApp.swift */; };
 		EFE2DAB2256EE204000F7453 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE2DAB1256EE204000F7453 /* ContentView.swift */; };
 		EFE2DAB4256EE206000F7453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE2DAB3256EE206000F7453 /* Assets.xcassets */; };
@@ -25,6 +28,9 @@
 		EF3AFDDD25702ABC006C5F41 /* MainTabBarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarItemView.swift; sourceTree = "<group>"; };
 		EF3AFDE125702AF5006C5F41 /* ColorHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHelpers.swift; sourceTree = "<group>"; };
 		EF3AFDE425702B2B006C5F41 /* StringHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringHelpers.swift; sourceTree = "<group>"; };
+		EF3AFE172572ADE6006C5F41 /* MyBooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBooksView.swift; sourceTree = "<group>"; };
+		EF3AFE1A2572E2ED006C5F41 /* SubHeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubHeadingView.swift; sourceTree = "<group>"; };
+		EF3AFE1D2573F4FC006C5F41 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		EFE2DAAC256EE204000F7453 /* BookAnalyzt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookAnalyzt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE2DAAF256EE204000F7453 /* BookAnalyztApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookAnalyztApp.swift; sourceTree = "<group>"; };
 		EFE2DAB1256EE204000F7453 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +67,8 @@
 				EFE2DAB1256EE204000F7453 /* ContentView.swift */,
 				EF3AFDD425702A2F006C5F41 /* MainTabBarView.swift */,
 				EF3AFDDD25702ABC006C5F41 /* MainTabBarItemView.swift */,
+				EF3AFE172572ADE6006C5F41 /* MyBooksView.swift */,
+				EF3AFE1A2572E2ED006C5F41 /* SubHeadingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -86,6 +94,7 @@
 			children = (
 				EF3AFDE125702AF5006C5F41 /* ColorHelpers.swift */,
 				EF3AFDE425702B2B006C5F41 /* StringHelpers.swift */,
+				EF3AFE1D2573F4FC006C5F41 /* Helpers.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -201,9 +210,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF3AFE1B2572E2ED006C5F41 /* SubHeadingView.swift in Sources */,
 				EFE2DAB2256EE204000F7453 /* ContentView.swift in Sources */,
 				EF3AFDE225702AF5006C5F41 /* ColorHelpers.swift in Sources */,
+				EF3AFE1E2573F4FC006C5F41 /* Helpers.swift in Sources */,
 				EF3AFDE525702B2B006C5F41 /* StringHelpers.swift in Sources */,
+				EF3AFE182572ADE6006C5F41 /* MyBooksView.swift in Sources */,
 				EF3AFDDE25702ABC006C5F41 /* MainTabBarItemView.swift in Sources */,
 				EF3AFDD525702A2F006C5F41 /* MainTabBarView.swift in Sources */,
 				EFE2DAB0256EE204000F7453 /* BookAnalyztApp.swift in Sources */,

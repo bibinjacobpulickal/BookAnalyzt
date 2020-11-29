@@ -13,9 +13,7 @@ struct ContentView: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            Text("Hello, world!")
-                .padding()
-                .frame(maxHeight: .infinity)
+            MyBooksView()
             MainTabBarView(selectedItem: $selectedItem)
         }
     }
