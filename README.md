@@ -8,6 +8,8 @@ A futuristic looking book reading app UI from dribble developed in SwiftUI.
 ![Layout](https://img.shields.io/badge/SwiftUI-2.0-black.svg)
 [![License](http://img.shields.io/badge/license-MIT-lightgray.svg?style=flat)](https://github.com/bibinjacobpulickal/BookAnalyzt/blob/master/LICENSE)
 
+![Mockup](https://github.com/bibinjacobpulickal/BookAnalyzt/blob/main/Screenshots/book_analysis_2_2x.webp)
+
 ## Installation
 1. Clone the repo.
 2. Open `BookAnalyzt.xcodeproj` on Xcode 12 or later.
